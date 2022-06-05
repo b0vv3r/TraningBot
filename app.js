@@ -19,7 +19,7 @@ bot.setMyCommands([
     description: 'Получить список вотчеров'
   },
 ]);
-// слушаем ввод команды "/auth ${token}"
+// слушаем ввод команды "/auth ${5572168930:AAEu9mAMHlR7pnH3Y9qIBiYCuoNiy2V3qj8}"
 bot.onText(/\/auth/, async (msg) => {
     try {
       // Парсим эти данные
